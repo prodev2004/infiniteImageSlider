@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
+        <!-- don't forget to link the CSS and JS -->
+        <!-- I'm using Font Awesome for the prev and next arrows -->
+        <!-- I'll also provide the github repo in the desc with the code and all the images -->
+        <title>Image Slider</title>
+    </head>
+    <body>
+        <div class="slider_container">
+            <span class="leftBtn">
+                <i class="fas fa-arrow-left"></i>
+            </span>
+            <div class="slider">
+                <img src="./images/image5.jpg" alt="" class="first_img">
+                <!-- here we'll add the last image -->
+                <img src="./images/image1.jpg" alt="">
+                <img src="./images/image2.jpg" alt="">
+                <img src="./images/image3.jpg" alt="">
+                <img src="./images/image4.jpg" alt="">
+                <img src="./images/image5.jpg" alt="">
+                <!-- here we'll add the first image -->
+                <img src="./images/image1.jpg" alt="" class="last_img">
+            </div>
+            <span class="rightBtn">
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </div>
+    </body>
+</html>
